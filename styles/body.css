@@ -34,15 +34,11 @@
     background-repeat: no-repeat;
     background-position-x: -50px;
     background-position-y: -150px;
-    overflow: hidden;
-
     position: relative;
 }
 
 #mobile-mockups{
     position: absolute;
-    overflow: hidden;
-    overflow-y:visible;
     top: -50px;
 }
 

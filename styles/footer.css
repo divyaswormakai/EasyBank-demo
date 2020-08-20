@@ -1,0 +1,49 @@
+.footer-row{
+    display: block;
+    width: 100%;
+    background-color: hsl(233, 26%, 24%);
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.footer-row-col-4 {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-logos{
+    padding-top:20px;
+}
+
+.footer-logos a{
+    margin-right:8px;
+}
+
+.footer-logos path:hover{
+    fill: hsl(136, 65%, 51%);
+}
+
+.footer-link{
+    padding-top:10px;
+    color:white;
+}
+
+.footer-link:hover{
+    color:hsl(136, 65%, 51%);
+}
+
+@media screen and (max-width:768px){  
+    .footer-row{
+        padding-top:30px;
+    }
+    .footer-row-col-4 {
+        display: block;
+        width: 100%;
+    }
+    .footer-request-button{
+        margin-top: 10px;
+    }
+}
